@@ -1,0 +1,15 @@
+{
+  "name": "Pandadog",
+  "description": "Pandadog stickers!",
+  "version": "1.0",
+  "manifest_version": 2,
+  "web_accessible_resources": [
+  "images/*.png"
+  ],
+  "icons": { "16": "pandadog.png",
+           "48": "pandadog.png",
+          "128": "pandadog.png" },
+  "chrome_url_overrides" : {
+    "newtab": "myPage.html"
+  }
+}
